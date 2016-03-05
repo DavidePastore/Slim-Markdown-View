@@ -44,6 +44,16 @@ $markdownView = new MardownRenderer("./path/to/templates");
 $response = $markdownView->render(new Response(), "/path/to/template.md");
 ```
 
+## Custom Parsedown instance
+```php
+//Construct the View
+$parsedown = Parsedown::instance()->setUrlsLinked(false);
+$markdownView = new MardownRenderer("./path/to/templates", $parsedown);
+
+//Render a file
+$response = $markdownView->render(new Response(), "/path/to/template.md");
+```
+
 ## Exceptions
 `\RuntimeException` - if template does not exist
 
