@@ -7,6 +7,7 @@
 [![Total Downloads][ico-downloads]][link-downloads]
 
 [![Build Status][ico-phpeye]][link-phpeye]
+[![PSR2 Conformance][ico-styleci]][link-styleci]
 
 A renderer for rendering Markdown into a PSR-7 Response object. It works well with Slim Framework 3.
 
@@ -79,10 +80,12 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/davidepastore/Slim-Markdown-View.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/davidepastore/slim-markdown-view.svg?style=flat-square
 [ico-phpeye]: http://php-eye.com/badge/DavidePastore/Slim-Markdown-View/tested.svg?style=flat-square
+[ico-styleci]: https://styleci.io/repos/53227007/shield
 
 [link-packagist]: https://packagist.org/packages/davidepastore/slim-markdown-view
 [link-travis]: https://travis-ci.org/DavidePastore/Slim-Markdown-View
 [link-scrutinizer]: https://scrutinizer-ci.com/g/DavidePastore/Slim-Markdown-View/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/DavidePastore/Slim-Markdown-View
-[link-phpeye]: http://php-eye.com/package/DavidePastore/Slim-Markdown-View
 [link-downloads]: https://packagist.org/packages/davidepastore/slim-markdown-view
+[link-phpeye]: http://php-eye.com/package/DavidePastore/Slim-Markdown-View
+[link-styleci]: https://styleci.io/repos/53227007/
