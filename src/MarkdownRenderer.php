@@ -49,10 +49,10 @@ class MarkdownRenderer
      * @param ResponseInterface $response
      * @param string            $template
      *
-     * @return ResponseInterface
-     *
      * @throws \InvalidArgumentException
      * @throws \RuntimeException
+     *
+     * @return ResponseInterface
      */
     public function render(ResponseInterface $response, $template)
     {
@@ -110,10 +110,10 @@ class MarkdownRenderer
      *
      * @param $template
      *
-     * @return mixed
-     *
      * @throws \InvalidArgumentException
      * @throws \RuntimeException
+     *
+     * @return mixed
      */
     public function fetch($template)
     {
