@@ -78,7 +78,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/DavidePastore/Slim-Markdown-View.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/davidepastore/Slim-Markdown-View.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/davidepastore/slim-markdown-view.svg?style=flat-square
-[ico-phpeye]: http://php-eye.com/badge/DavidePastore/ipinfo/tested.svg?style=flat-square
+[ico-phpeye]: http://php-eye.com/badge/DavidePastore/Slim-Markdown-View/tested.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/davidepastore/slim-markdown-view
 [link-travis]: https://travis-ci.org/DavidePastore/Slim-Markdown-View
