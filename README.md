@@ -22,7 +22,7 @@ Install with [Composer](http://getcomposer.org):
 ## Usage With Slim 3
 
 ```php
-use DavidePastore\Slim\Views\MardownRenderer;
+use \DavidePastore\Slim\Views\MarkdownRenderer;
 
 include "vendor/autoload.php";
 
@@ -40,7 +40,7 @@ $app->run();
 ## Usage with any PSR-7 Project
 ```php
 //Construct the View
-$markdownView = new MardownRenderer("./path/to/templates");
+$markdownView = new MarkdownRenderer("./path/to/templates");
 
 //Render a file
 $response = $markdownView->render(new Response(), "/path/to/template.md");
@@ -50,7 +50,7 @@ $response = $markdownView->render(new Response(), "/path/to/template.md");
 ```php
 //Construct the View
 $parsedown = Parsedown::instance()->setUrlsLinked(false);
-$markdownView = new MardownRenderer("./path/to/templates", $parsedown);
+$markdownView = new MarkdownRenderer("./path/to/templates", $parsedown);
 
 //Render a file
 $response = $markdownView->render(new Response(), "/path/to/template.md");
