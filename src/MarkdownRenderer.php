@@ -4,6 +4,7 @@
  *
  * @link      https://github.com/DavidePastore/Markdown-View
  */
+
 namespace DavidePastore\Slim\Views;
 
 use Psr\Http\Message\ResponseInterface;
